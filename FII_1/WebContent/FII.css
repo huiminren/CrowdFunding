@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+.TopBar
+{
+	font-size:60px;
+	text-align:center;
+	font-family:papyrus;
+	color:white;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:40px;
+	text-shadow:2px 2px 2px black;
+	text-align:center;
+}
+.clue
+{
+	font-size:70px;
+	text-align:center;
+	
+	font-family:"Gabriola";
+	/*Gabriola;*/
+	color:white;
+	font-weight:bold;
+	margin-top:60px;
+	margin-bottom:10px;
+	height:90px;
+}
+.demo
+{
+	filter:alpha(opacity=80);/*IE*/  
+	opacity:0.8;/*Mozilla*/  
+	 
+}
+.top_text{height:80px;
+		font-size:30px;
+		color:#686868;
+		  background:white;
+		  border-radius:20px 20px 20px 20px;
+		  font-family:"Microsoft YaHei";
+		  border:0;
+		  width:100%;
+		  margin-top:10px;
+        display:inline-block;
+      text-align:center;
+		 }
+		 
+.register_btn{
+	
+	height:80px;
+		   width:28%;
+		   font-size:40px;
+		   color:white;
+		 background:url(按钮.png);
+		 text-shadow:2px 2px 2px black;
+		   border-radius:10px 10px 10px 10px;
+		   font-family:Papyrus;
+		   border:0;
+		   margin:45px 16px 10px 15%;
+		   -webkit-appearance:none;
+		   font-weight:bold;
+  display:inline-block;}
+  #tblSample
+{
+	width:85%;
+	margin-left:100px;
+	 position:relative;
+}
+.word1
+		 {
+		 font-size:40px;
+		   color:white;
+		margin:0;
+		   font-family:Papyrus;
+		   text-shadow:2px 2px 2px black;
+		   position:absolute;
+	  top:510px;
+	  left:18%;
+	  
+		 }
+		 
+  .back_btn{
+  /*filter:alpha(opacity=50);/*IE*/  
+	/*opacity:0.5;/*Mozilla*/  
+	height:80px;
+		   width:28%;
+		   font-size:40px;
+		   color:white;
+		 background:url(按钮.png);
+		   border-radius:10px 10px 10px 10px;
+		   font-family:Papyrus;
+		   border:0;
+		  text-shadow:2px 2px 2px black;
+		   -webkit-appearance:none;
+		   font-weight:bold;
+		   margin:45px 8% 10px 15%;
+	
+   }
+  
+  .word2
+		 {
+		 font-size:40px;
+		   color:white;
+		margin:0;
+		   font-family:Papyrus;
+		  
+		   text-shadow:2px 2px 2px black;
+		   position:absolute;
+	  top:510px;
+	  left:58.5%;
+	  
+		 }
